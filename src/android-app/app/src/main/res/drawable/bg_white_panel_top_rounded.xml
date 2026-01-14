@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- White panel for bottom section with rounded top corners -->
+    <solid android:color="@android:color/white" />
+    <corners
+        android:topLeftRadius="@dimen/curved_panel_corner_radius"
+        android:topRightRadius="@dimen/curved_panel_corner_radius" />
+</shape>

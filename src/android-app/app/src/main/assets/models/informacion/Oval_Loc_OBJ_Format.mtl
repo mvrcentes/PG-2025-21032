@@ -1,0 +1,13 @@
+# Blender 3.5.0 MTL File: 'oval loc.blend'
+# www.blender.org
+
+newmtl Material.001
+Ns 505.533997
+Ka 0.211009 0.211009 0.211009
+Kd 0.800000 0.001650 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd Oval_Loc_Red.png

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/enhanced_card_pink"
+    style="@style/EnhancedMainCardStyle"
+    android:background="@drawable/rect_card_oj_pastel"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <!-- Icono mejorado -->
+    <ImageView
+        android:id="@+id/iconFreeTour"
+        style="@style/EnhancedCardIconStyle"
+        android:src="@drawable/ic_free_tour"
+        android:contentDescription="Tour Libre" />
+
+    <!-- Texto principal -->
+    <TextView
+        android:id="@+id/textFreeTour"
+        style="@style/EnhancedCardTextStyle"
+        android:layout_weight="1"
+    android:text="@string/free_tour_title"
+    android:textColor="@android:color/black"
+    android:hyphenationFrequency="none"
+    android:breakStrategy="simple"
+    android:maxLines="2"
+    android:ellipsize="end"
+    app:autoSizeTextType="uniform"
+    app:autoSizeMinTextSize="14sp"
+    app:autoSizeMaxTextSize="18sp"
+    app:autoSizeStepGranularity="1sp" />
+
+    <!-- Flecha indicadora optimizada -->
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@android:drawable/ic_media_play"
+        android:contentDescription="Ir"
+        android:layout_marginStart="6dp"
+        android:alpha="0.7" />
+
+</LinearLayout>

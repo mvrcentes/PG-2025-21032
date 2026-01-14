@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_teal"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    android:padding="16dp"
+    android:foregroundGravity="center"
+    android:background="@drawable/bg_card_teal">
+
+    <!-- Circulito teal -->
+    <View
+        android:id="@+id/circleTeal"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="center_vertical|start"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/circle_teal" />
+
+    <!-- Texto centrado -->
+    <TextView
+        android:id="@+id/textTeal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/guided_tour_title"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:fontFamily="@font/font" />
+</FrameLayout>

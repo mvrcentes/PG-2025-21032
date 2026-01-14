@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/enhanced_card_purple"
+    style="@style/EnhancedMainCardStyle"
+    android:background="@drawable/enhanced_card_purple"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <!-- Icono mejorado -->
+    <ImageView
+        android:id="@+id/iconInstructions"
+        style="@style/EnhancedCardIconStyle"
+        android:src="@drawable/ic_instructions"
+        android:contentDescription="Instrucciones" />
+
+    <!-- Texto principal -->
+    <TextView
+        android:id="@+id/textInstructions"
+        style="@style/EnhancedCardTextStyle"
+        android:layout_weight="1"
+        android:text="@string/instructions_title" />
+
+    <!-- Flecha indicadora optimizada -->
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@android:drawable/ic_media_play"
+        android:contentDescription="Ir"
+        android:layout_marginStart="6dp"
+        android:alpha="0.7" />
+
+</LinearLayout>

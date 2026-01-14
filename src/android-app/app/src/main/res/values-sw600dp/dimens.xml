@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Larger max height for header image on sw600dp (tablets/large screens) -->
+    <dimen name="header_image_max_height">300dp</dimen>
+</resources>

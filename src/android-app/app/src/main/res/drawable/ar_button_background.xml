@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Estado presionado -->
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="#B8944A"/> <!-- Dorado más oscuro al presionar -->
+            <stroke 
+                android:width="3dp" 
+                android:color="#D25B31"/> <!-- Borde naranja terracota -->
+            <size 
+                android:width="80dp" 
+                android:height="80dp"/>
+        </shape>
+    </item>
+    
+    <!-- Estado normal -->
+    <item>
+        <shape android:shape="oval">
+            <gradient
+                android:startColor="#E6B75C"
+                android:endColor="#E2BF9B"
+                android:angle="45"
+                android:type="linear"/>
+            <stroke 
+                android:width="2dp" 
+                android:color="#D25B31"/> <!-- Borde naranja terracota -->
+            <size 
+                android:width="80dp" 
+                android:height="80dp"/>
+        </shape>
+    </item>
+</selector>

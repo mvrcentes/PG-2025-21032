@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/enhanced_card_green"
+    style="@style/SquareTileCardStyle"
+    android:background="@drawable/square_tile_right"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/iconTerms"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/ic_terms"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/textTerms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font"
+        android:text="@string/terms_title"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:lineSpacingExtra="1dp"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:hyphenationFrequency="none"
+        android:breakStrategy="simple"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="10sp"
+        app:autoSizeMaxTextSize="14sp"
+        app:autoSizeStepGranularity="1sp" />
+
+</LinearLayout>

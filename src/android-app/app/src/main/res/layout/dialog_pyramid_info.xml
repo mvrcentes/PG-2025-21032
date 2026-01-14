@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/pyramidTitle"
+                style="@style/PoiTitleStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Montículo 12 - Kaminaljuyú"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/closeButton"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@android:drawable/ic_menu_close_clear_cancel"
+                android:contentDescription="Cerrar" />
+        </LinearLayout>
+
+        <!-- Scrollable content -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="400dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Images Section -->
+                <HorizontalScrollView
+                    android:id="@+id/imagesScrollView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/imagesContainer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingEnd="8dp"
+                        android:paddingStart="0dp" />
+                </HorizontalScrollView>
+
+                <!-- Description Section -->
+                <LinearLayout
+                    android:id="@+id/descriptionSection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/PoiSubtitleStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hallazgos" />
+
+                    <TextView
+                        android:id="@+id/pyramidDescription"
+                        style="@style/PoiBodyTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Descripción de la pirámide..." />
+                </LinearLayout>
+
+                <!-- Historical Info Section -->
+                <LinearLayout
+                    android:id="@+id/historySection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/PoiSubtitleStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Función" />
+
+                    <TextView
+                        android:id="@+id/pyramidHistory"
+                        style="@style/PoiBodyTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Información histórica..." />
+                </LinearLayout>
+
+                <!-- Construction Period -->
+                <LinearLayout
+                    android:id="@+id/periodSection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Período de construcción: "
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="#34495E" />
+
+                    <TextView
+                        android:id="@+id/pyramidPeriod"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="400 a.C. - 600 d.C."
+                        android:textSize="14sp"
+                        android:textColor="#5D6D7E" />
+                </LinearLayout>
+
+                <!-- Height -->
+                <LinearLayout
+                    android:id="@+id/heightSection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Altura: "
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="#34495E" />
+
+                    <TextView
+                        android:id="@+id/pyramidHeight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aproximadamente 15 metros"
+                        android:textSize="14sp"
+                        android:textColor="#5D6D7E" />
+                </LinearLayout>
+
+                <!-- Archaeological Features -->
+                <LinearLayout
+                    android:id="@+id/featuresSection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/PoiSubtitleStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Período de Construcción" />
+
+                    <TextView
+                        android:id="@+id/pyramidFeatures"
+                        style="@style/PoiBodyTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="• Características arqueológicas..." />
+                </LinearLayout>
+
+                <!-- Cultural Significance -->
+                <LinearLayout
+                    android:id="@+id/significanceSection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/PoiSubtitleStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Información Adicional" />
+
+                    <TextView
+                        android:id="@+id/pyramidSignificance"
+                        style="@style/PoiBodyTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Significado cultural..." />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

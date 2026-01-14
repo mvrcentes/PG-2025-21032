@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1080dp"
+    android:height="1920dp"
+    android:viewportWidth="1080"
+    android:viewportHeight="1920">
+
+    <!-- Base: brand_grove en todo el fondo -->
+    <path
+        android:fillColor="@color/brand_grove"
+        android:pathData="M0,0 H1080 V1920 H0 Z"/>
+
+    <!-- Capa superior: brand_afternoon con partición curva no recta -->
+    <!-- Forma tipo ola que cruza desde arriba-derecha hacia el centro-izquierda -->
+    <path
+        android:fillColor="@color/brand_afternoon"
+        android:pathData="M0,0 H1080 V720 C 860,760 660,640 420,780 C 240,880 120,960 0,900 Z"/>
+
+</vector>

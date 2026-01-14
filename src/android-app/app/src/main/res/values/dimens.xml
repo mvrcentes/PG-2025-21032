@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Height of the bottom white curved panel; tweak to control where the curve starts -->
+    <dimen name="curved_panel_height">701dp</dimen>
+    <!-- Corner radius for the curved panel's top corners -->
+    <dimen name="curved_panel_corner_radius">160dp</dimen>
+    <!-- Height of prominent full-width cards (guided and free tours) -->
+    <dimen name="card_large_height">96dp</dimen>
+    <!-- Horizontal padding for the square row to make them slightly smaller -->
+    <dimen name="square_row_horizontal_padding">32dp</dimen>
+    <dimen name="square_between_margin">5dp</dimen>
+    <!-- Unified gap between rectangles, between second rectangle and squares, and between the two squares -->
+    <dimen name="cards_gap">12dp</dimen>
+    
+    <!-- Max height for the header image on phones; tablet override in sw600dp -->
+    <dimen name="header_image_max_height">200dp</dimen>
+</resources>

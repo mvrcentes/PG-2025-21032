@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/enhanced_card_green"
+    style="@style/EnhancedMainCardStyle"
+    android:background="@drawable/enhanced_card_green"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <!-- Icono mejorado -->
+    <ImageView
+        android:id="@+id/iconTerms"
+        style="@style/EnhancedCardIconStyle"
+        android:src="@drawable/ic_terms"
+        android:contentDescription="Términos y Condiciones" />
+
+    <!-- Texto principal optimizado -->
+    <TextView
+        android:id="@+id/textTerms"
+        style="@style/EnhancedCardTextStyle"
+        android:layout_weight="1"
+        android:text="Términos y Condiciones"
+        android:maxLines="2"
+        android:ellipsize="end" />
+
+    <!-- Flecha indicadora optimizada -->
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@android:drawable/ic_media_play"
+        android:contentDescription="Ir"
+        android:layout_marginStart="6dp"
+        android:alpha="0.7" />
+
+</LinearLayout>

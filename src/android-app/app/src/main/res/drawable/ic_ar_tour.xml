@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icono vectorial de realidad aumentada estilizado -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="36dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- Marco exterior que representa la vista AR -->
+    <path
+        android:fillColor="#D25B31"
+        android:pathData="M3,4 L3,8 L5,8 L5,6 L7,6 L7,4 Z
+                         M17,4 L17,6 L19,6 L19,8 L21,8 L21,4 Z
+                         M3,16 L3,20 L7,20 L7,18 L5,18 L5,16 Z
+                         M19,16 L19,18 L17,18 L17,20 L21,20 L21,16 Z"/>
+    
+    <!-- Elementos centrales que representan objetos 3D -->
+    <group android:translateX="12" android:translateY="12">
+        <!-- Pirámide central estilizada -->
+        <path
+            android:fillColor="#E2BF9B"
+            android:pathData="M0,-4 L-3,2 L3,2 Z"/>
+        
+        <!-- Círculos que representan puntos de interés -->
+        <path
+            android:fillColor="#ECEBC8"
+            android:strokeColor="#D25B31"
+            android:strokeWidth="1"
+            android:pathData="M-4,-0.5 A1.5,1.5 0 1,1 -4,2.5 A1.5,1.5 0 1,1 -4,-0.5"/>
+            
+        <path
+            android:fillColor="#E6B75C"
+            android:strokeColor="#D25B31"
+            android:strokeWidth="1"
+            android:pathData="M4,-0.5 A1.5,1.5 0 1,1 4,2.5 A1.5,1.5 0 1,1 4,-0.5"/>
+    </group>
+</vector>

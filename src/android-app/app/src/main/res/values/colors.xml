@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand palette -->
+    <color name="brand_afternoon">#6FB3A6</color>
+    <color name="brand_ripe">#D15B33</color>
+    <color name="brand_oj">#E6BA62</color>
+    <color name="brand_honeydew">#E5E5C8</color>
+    <color name="brand_pink">#E2BFA1</color>
+    <color name="brand_grove">#34522F</color>
+    <!-- Texts -->
+    <color name="text_primary">#2D2D2D</color>
+    <color name="text_on_brand">#FFFFFF</color>
+</resources>

@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">AR Tour Kaminaljuyu</string>
+    <string name="welcome_text">Bienvenidos al\nParque Arqueológico</string>
+    <string name="kaminaljuyu"><b>Kaminaljuyú</b></string>
+    <string name="guided_tour_title">Tour Guiado</string>
+    <string name="free_tour_title">Tour Libre</string>
+    <string name="instructions_title">Instrucciones de Uso</string>
+    <string name="terms_title">Términos y Condiciones</string>
+    <string name="terms">Términos y Condiciones\n\nBienvenido a la aplicación de recorrido virtual del Parque Arqueológico Kaminaljuyú. Al utilizar esta aplicación, usted acepta los siguientes términos:\n\n- Esta aplicación tiene como propósito ofrecer una experiencia educativa e interactiva basada en información histórica, arqueológica y cultural disponible hasta la fecha de su desarrollo.\n- El contenido visual y textual ha sido elaborado a partir de investigaciones académicas, registros históricos y reconstrucciones interpretativas.\n- Debido a limitaciones inherentes a la investigación arqueológica, algunas representaciones de estructuras, objetos y paisajes pueden no reflejar con total exactitud las condiciones originales del sitio en la antigüedad.\n- Parte de la información presentada puede estar sujeta a cambios a medida que se desarrollen nuevas investigaciones arqueológicas o actualizaciones académicas.\n- Esta aplicación no sustituye una visita física ni la asesoría de profesionales en arqueología o historia.\n\nDescargo de responsabilidad:\nAunque se ha procurado la mayor precisión posible, la representación de ciertas estructuras, escenarios y detalles visuales puede contener elementos hipotéticos o interpretativos debido a la falta de evidencia completa o alteraciones ocurridas a lo largo del tiempo.\n\nAl utilizar esta aplicación, usted reconoce y acepta estas condiciones.</string>
+    <string name="back_button">Regresar</string>
+    <string translatable="false" name="geospatial_pose">LAT/LNG: %.6f˚, %.6f˚\n\t\t\tACCURACY: %.2fm\nALTITUDE: %.2fm\n\t\t\tACCURACY: %.2fm\nHEADING: %.1f˚\n\t\t\tACCURACY: %.1f˚</string>
+    <string name="earth_state">EarthState: %1$s\nTrackingState: %2$s\n%3$s</string>
+
+    <!-- Instructions activity strings -->
+    <string name="instructions_content">1. Selecciona \'Tour Guiado\' o \'Tour Libre\' desde el menú principal.\n\n2. Si eliges \'Tour Guiado\', sigue la ruta recomendada para una mejor experiencia.\n\n3. Apunta tu dispositivo hacia los puntos de interés para activar las escenas de realidad aumentada.\n\n4. Utiliza el botón de información para conocer detalles históricos de cada estructura.\n\n5. En cualquier momento, puedes consultar las \'Instrucciones de Uso\' o los \'Términos y Condiciones\' desde el menú principal.\n\n¡Disfruta tu recorrido por Kaminaljuyú!</string>
+    <string name="maya_image_description">Imagen de un maya</string>
+
+    <!-- ====================================================================== -->
+    <!-- POI Descriptions - Kaminaljuyú Archaeological Site -->
+    <!-- ====================================================================== -->
+
+    <!-- Introduction to Kaminaljuyú (informacion_inicial) -->
+    <string name="poi_kaminaljuyu_title"><b>Kaminaljuyú</b></string>
+    <string name="poi_kaminaljuyu_description">Es un sitio que se ubica en el centro de las Tierras Altas Mayas y se estableció alrededor del Lago Miraflores. Fue un centro de intercambio y comercio que controló las rutas de distribución de jade, obsidiana, sal, algodón, resinas y otros productos. Durante el periodo Clásico (250-900 d.C) estableció relaciones con el Altiplano mexicano y las Tierras Bajas Mayas. La arquitectura del sitio fue principalmente de barro y destacó por la presencia de templos, palacios, juegos de pelota y viviendas.\n\nEn la época prehispánica Kaminaljuyú tuvo una extensión de 5 km² y se conformó de más de 230 montículos, la mayoría demolidos por la expansión urbana. En la actualidad se conservan 40 montículos, nueve se resguardan en el Parque Arqueológico Kaminaljuyú y los restantes se encuentran alrededor de viviendas, centros comerciales, escuelas y colonias de las zonas 7 y 11 de la Ciudad de Guatemala.</string>
+
+    <!-- Montículo C-II-3 (monticulo_3) -->
+    <string name="poi_monticulo_3_title"><b>Montículo C-II-3</b></string>
+    <string name="poi_monticulo_3_findings_title"><b>Hallazgos:</b></string>
+    <string name="poi_monticulo_3_findings">• En el Clásico Tardío se construyó dos pisos, un apisonado, rellenos constructivos y gradas.\n\n• Cerámica del Clásico Tardío (575-900 d.C) y Clásico Temprano (250-575 d.C)\n\n• En el Preclásico Tardío-Terminal se construyeron gradas, un piso, un apisonado y rellenos constructivos.\n\n• Depósito cerámico con material del Preclásico Tardío (350-100 a.C) y Preclásico Tardío-Terminal (100 a.C-250 d.C).</string>
+
+    <!-- Acrópolis C-II-4 (acropolis) -->
+    <string name="poi_acropolis_title"><b>Acrópolis (C-II-4)</b></string>
+    <string name="poi_acropolis_findings_title"><b>Hallazgos:</b></string>
+    <string name="poi_acropolis_findings">• La Acrópolis fue constantemente remodelada y representó el sector palaciego del sitio. Los palacios se ubicaron en el núcleo de las ciudades y contaron con una estructura interna sofisticada, lo que implicó diferentes usos y la existencia de espacios privados.\n\n• La composición visible de la Acrópolis corresponde al periodo Clásico Tardío (575-900 d.C). Durante este periodo varios edificios del Clásico Temprano (425-575 d.C) fueron cubiertos con pisos de barro y nuevas estructuras de piedra y barro. Mientras que otros edificios sufrieron cambios en la fachada.\n\n• Otras construcciones del Clásico Tardío incluyen un juego de pelota y drenajes.\n\n• Se han encontrado comales, cuencos y tazas de comer que pertenecen al periodo Clásico Tardío.\n\n• Durante la fase Esperanza del periodo Clásico Temprano (425-575 d.C) se construyeron más de 20 estructuras talud-tablero en la Acrópolis.\n\n• El talud-tablero es un estilo arquitectónico que consiste en una base inclinada que es el talud y sobre este se encuentra el tablero, el cual es un bloque rectangular con molduras; esta técnica constructiva es distintiva de Teotihuacán, México.</string>
+    <string name="poi_acropolis_findings_additional">• La incorporación del estilo talud-tablero en Kaminaljuyú fue una adaptación local, ya que se utilizaron recursos de la región y diferentes dimensiones, respecto a lo documentado en Teotihuacan. En este último sitio el tablero es tres veces más grande que el talud (3:1), mientras que en Kaminaljuyú el talud y tablero son del mismo tamaño (1:1).\n\n• Las estructuras talud-tablero se construyeron con materiales de origen volcánico. Para la superficie se aplicó piedrín, que es una mezcla de barro, cal y piedra, posteriormente se reemplazó por pumedrín, una mezcla compuesta de barro, cal y piedra pómez. Para el relleno constructivo de las estructuras se empleó talpetate y para los muros de contención se utilizó piedra pómez.\n\n• Se han hallado incensarios con decoración aplicada que corresponden al periodo Clásico Temprano.</string>
+    <string name="poi_acropolis_function_title"><b>Funcionalidad de la Acrópolis:</b></string>
+    <string name="poi_acropolis_function">• Clásico Tardío (575-900 d.C): Las estructuras fueron modificadas para ser utilizadas como residencia para la élite, como lo demuestra la presencia de cerámica doméstica. La Acrópolis se convirtió en una especie de palacio en la cual se alojaron dignatarios importantes.\n\n• Clásico Temprano (425-575 d.C): Se realizaron actividades ceremoniales y administrativas, evidenciadas por el hallazgo de incensarios y estructuras talud-tablero.</string>
+
+    <!-- Montículo C-II-5 (monticulo_5) -->
+    <string name="poi_monticulo_5_title"><b>Montículo C-II-5</b></string>
+    <string name="poi_monticulo_5_findings_title"><b>Hallazgos:</b></string>
+    <string name="poi_monticulo_5_findings">• En el Clásico Tardío se construyeron cinco pisos de barro.\n\n• Rellenos de barro y suelo.\n\n• En el Preclásico Tardío se construyó una plataforma de 2.2 m de altura.\n\n• Cerámica del Preclásico Tardío (350-100 a.C), Preclásico Tardío-Terminal (100 a.C-250 d.C), Clásico Temprano (250-575 d.C) y Clásico Tardío (575-900 d.C)</string>
+
+    <!-- Montículo C-II-6 (monticulo_6) -->
+    <string name="poi_monticulo_6_title"><b>Montículo C-II-6</b></string>
+    <string name="poi_monticulo_6_findings_title"><b>Hallazgos:</b></string>
+    <string name="poi_monticulo_6_findings">• En el Clásico Tardío (575-900 d.C) se construyeron tres rellenos, un canal, una superficie formada por piedras tipo laja, canto rodado y pómez, además de un piso y un apisonado. A este mismo periodo pertenece un depósito cerámico hallado en el montículo.\n\n• Del Preclásico Tardío-Terminal (100 a.C-250 d.C) se registró un depósito cerámico que contuvo una vasija completa que pudo funcionar como ofrenda.</string>
+
+    <!-- Montículo C-II-7 (monticulo_7) -->
+    <string name="poi_monticulo_7_title"><b>Montículo C-II-7</b></string>
+    <string name="poi_monticulo_7_findings_title"><b>Hallazgos:</b></string>
+    <string name="poi_monticulo_7_findings">• El edificio talud-tablero que se esta visualizando data del Clásico Temprano (425-575 d.C).\n\n• Debajo de este edificio se hallaron dos pisos asociados a materiales cerámicos que fechan del Preclásico Tardío-Terminal (100 a.C- 250 d.C), Clásico Temprano (250-575 d.C) y Clásico Tardío (575-900 d.C).</string>
+
+    <!-- Montículo C-II-8 (monticulo_8) -->
+    <string name="poi_monticulo_8_title"><b>Montículo C-II-8</b></string>
+    <string name="poi_monticulo_8_findings_title"><b>Hallazgos:</b></string>
+    <string name="poi_monticulo_8_findings">• Figurillas y depósito cerámico de uso doméstico, ambos hallazgos corresponden al periodo Clásico Tardío.\n\n• Fragmentos de un monumento Preclásico, quebrado en el pasado.\n\n• En el Preclásico Tardío-Terminal se construyó un canal.\n\n• Depósito cultural conformado por un fragmento de vasija e incensario, una punta de lanza de obsidiana, una lasca de pedernal y 26 huesos humanos de adulto, incluyendo dos mandíbulas, dientes y un fragmento de cráneo pulido. El hallazgo de restos humanos pudo estar relacionado con alguna actividad ritual. Los materiales del depósito corresponden a distintos periodos: Preclásico Tardío-Terminal (100 a.C-250 d.C), Clásico Temprano (250-575 d.C) y Clásico Tardío (575-900 d.C).</string>
+
+    <!-- Montículo C-II-12 (monticulo_12) -->
+    <string name="poi_monticulo_12_title"><b>Montículo C-II-12</b></string>
+    <string name="poi_monticulo_12_findings_title"><b>Hallazgos:</b></string>
+    <string name="poi_monticulo_12_findings">• Plataforma con escalones de barro del Preclásico Tardío-Terminal.\n\n• Depósito cultural del Preclásico Tardío-Terminal, conformado por vasijas finas y utilitarias, lascas de obsidiana, dos vasijas miniatura, huesos humanos y de animal y una piedra volcánica con huella de trabajo.\n\n• Figurillas femeninas que representan mujeres embarazadas y pigmento rojo y verde.</string>
+    <string name="poi_monticulo_12_function_title"><b>Función:</b></string>
+    <string name="poi_monticulo_12_function">• Preclásico Tardío-Terminal (100 a.C-250 d.C): Plataforma residencial de élite, en la cual se realizaron rituales para la fertilidad.</string>
+
+    <!-- Estructura E / Palangana (palangana) -->
+    <string name="poi_palangana_title"><b>Estructura E</b></string>
+    <string name="poi_palangana_intro">Cuenta con varias etapas constructivas.</string>
+
+    <!-- Estructura E - Clásico Tardío -->
+    <string name="poi_palangana_clasico_tardio_title"><b>Clásico Tardío (575-900 d.C): Etapas 5 y 4.</b></string>
+    <string name="poi_palangana_etapa5_title"><b>Etapa 5:</b></string>
+    <string name="poi_palangana_etapa5">• Al sur del recinto se depositaron fragmentos de cerámica erosionada y esculturas de etapas constructivas anteriores.</string>
+    <string name="poi_palangana_etapa4_title"><b>Etapa 4:</b></string>
+    <string name="poi_palangana_etapa4">• Es la etapa constructiva actualmente expuesta, conformada por un drenaje en el interior del recinto y una estructura de adobe que cubre el estilo talud-tablero. Al frente del recinto se construyó una plataforma del mismo material, la cual fue destruida durante las investigaciones realizadas a inicios del siglo pasado.</string>
+
+    <!-- Estructura E - Clásico Temprano -->
+    <string name="poi_palangana_clasico_temprano_title"><b>Clásico Temprano (425-575 d.C): Etapas 3, 2 y 1.</b></string>
+    <string name="poi_palangana_etapa3_title"><b>Etapa 3:</b> Se constituye de tres subetapas constructivas.</string>
+    <string name="poi_palangana_etapa3c">• Subetapa 3-c: Es la reconstrucción virtual que observamos ahora, en esta subetapa se modificó el atrio y se construyó nuevas gradas en la parte frontal del recinto, solo a través de estas se pudo acceder a la plataforma.</string>
+    <string name="poi_palangana_etapa3b">• Subetapa 3-b: En el recinto se aplicó el estilo talud-tablero y se construyó una grada en el centro del lado sur. Además, se remodeló la escalinata de la plataforma, se incrementó la altura del atrio y se construyeron gradas en los lados este y oeste.</string>
+    <string name="poi_palangana_etapa3a">• Subetapa 3-a: Se agregó una plataforma con estilo talud-tablero, que presentó en su parte superior agujeros de poste utilizados para sostener una superestructura de materiales perecederos. Asimismo, se construyó un atrio que conectó la plataforma con el recinto remodelado. Durante esta subetapa se hallaron dos tumbas dedicatorias que contenían individuos sentados, acompañados de ofrendas cerámicas. La Tumba 2 se localizó en el recinto, mientras que la Tumba 3 se construyó con piedras y se ubicó en la esquina noreste de la plataforma.</string>
+    <string name="poi_palangana_etapa3_function_title"><b>Función de etapa 3:</b></string>
+    <string name="poi_palangana_etapa3_function">• Pudo ser utilizada como una residencia de élite o un edificio administrativo.</string>
+
+    <string name="poi_palangana_etapa2_title"><b>Etapa 2:</b> Se constituye de tres etapas constructivas.</string>
+    <string name="poi_palangana_etapa2c">• Subetapa 2-c: En el interior del recinto se modificaron las gradas y se incorporó un talud. En la parte sur del exterior, se ampliaron las gradas de acceso y se construyeron dos adiciones rectangulares.</string>
+    <string name="poi_palangana_etapa2b">• Subetapa 2-b: En el recinto se aumentó la altura y se construyeron gradas tanto en el interior como en el exterior.</string>
+    <string name="poi_palangana_etapa2a">• Subetapa 2-a: Se construyó un recinto hundido al norte de la primera etapa constructiva.</string>
+    <string name="poi_palangana_etapa2_function_title"><b>Función de etapa 2:</b></string>
+    <string name="poi_palangana_etapa2_function">• Centro ritual o fue utilizado para alguna otra actividad pública.</string>
+
+    <string name="poi_palangana_etapa1_title"><b>Etapa 1:</b> Es la primera etapa constructiva</string>
+    <string name="poi_palangana_etapa1">• Pequeña pirámide con una base en forma de talud y paredes tipo tablero. Esta primera etapa se edificó sobre la Tumba 1, que contenía restos humanos, estelas lisas y una escultura tallada.</string>
+    <string name="poi_palangana_etapa1_function_title"><b>Función de etapa 1:</b></string>
+    <string name="poi_palangana_etapa1_function">• Altar dedicatorio.</string>
+
+    <!-- Montículo C-II-13 (monticulo_13) -->
+    <string name="poi_monticulo_13_title"><b>Montículo C-II-13</b></string>
+    <string name="poi_monticulo_13_findings_title"><b>Hallazgos:</b></string>
+    <string name="poi_monticulo_13_findings">• Durante el Clásico Tardío (575-900 d.C) se construyó la plataforma de barro que están visualizando y se colocó el Monumento 224; tallado en sus cuatro lados. Las escenas representadas incluyen once círculos (1), dos personajes -uno arrodillado y otro de pie- (2), un animal -serpiente o pescado- (3) y una lengua bífida (4). Este monumento data del Preclásico y fue reutilizado porque Kaminaljuyú atravesaba un proceso de descentralización de poder, lo que impulsó un retorno a la ideología pasada. A este mismo periodo corresponde el hallazgo de vasijas sencillas e incensarios.\n\n• Durante el Clásico Temprano se construyeron doce apisonados y ocho pisos de barro. Además de tres escalinatas superpuestas.\n\n• Durante el Preclásico Tardío-Terminal se construyeron dos drenajes de piedra (1), y se depositaron huesos humanos y una vasija en forma de cuerpo humano esqueletizado (2).</string>
+    <string name="poi_monticulo_13_function_title"><b>Función:</b></string>
+    <string name="poi_monticulo_13_function">• Clásico Tardío (575-900 d.C): En la plataforma se realizaron actividades rituales, como lo demuestra el hallazgo de incensarios quebrados y vasijas con restos de material quemado.</string>
+
+    <!-- Montículo C-II-14 (monticulo_14) -->
+    <string name="poi_monticulo_14_title"><b>Montículo C-II-14</b></string>
+    <string name="poi_monticulo_14_findings_title"><b>Hallazgos:</b></string>
+    <string name="poi_monticulo_14_findings">• Durante el Clásico Tardío (575-900 d.C) se construyó la estructura de piedra que están visualizando. Esta presenta una base inclinada (talud) y escalinatas con alfardas ubicadas en el lado oeste de la estructura. A este mismo periodo corresponde el hallazgo de vasijas utilitarias e incensarios.\n\n• Debajo de la estructura de piedra se encuentran otras etapas constructivas del Clásico Temprano (250-575 d.C):\n  1. Plataforma con escalinata de barro, cuyo acceso se realizaba únicamente por el lado este.\n  2. Plataforma con dos escalinatas de piedrín, que permitían el acceso por los lados este y oeste.\n  3. Plataforma con remanentes de paredes de piedrín.\n\n• La etapa constructiva más antigua corresponde al Preclásico Tardío-Terminal (100 a. C-250 d.C), durante la cual se construyó pisos y gradas de acceso en el lado oeste de la estructura. A este mismo periodo corresponde el hallazgo de vasijas.</string>
+    <string name="poi_monticulo_14_function_title"><b>Funciones:</b></string>
+    <string name="poi_monticulo_14_function">• Clásico Tardío (575-900 d.C): Plataforma residencial en la cual se realizaban actividades ceremoniales, como lo demuestra el hallazgo de vasijas de uso doméstico e incensarios.\n\n• Preclásico Tardío-Terminal (100 a.C-250 d.C): Plataforma residencial de élite.</string>
+
+    <!-- Image viewer strings -->
+    <string name="image_description">Imagen del punto de interés</string>
+    <string name="close">Cerrar</string>
+    <string name="previous_image">Imagen anterior</string>
+    <string name="next_image">Imagen siguiente</string>
+
+</resources>

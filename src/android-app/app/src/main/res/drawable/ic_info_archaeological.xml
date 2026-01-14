@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icono de información arqueológica -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- Círculo base -->
+    <path
+        android:fillColor="#ECEBC8"
+        android:strokeColor="#D25B31"
+        android:strokeWidth="2"
+        android:pathData="M12,2 A10,10 0 1,1 12,22 A10,10 0 1,1 12,2"/>
+    
+    <!-- Símbolo "i" de información -->
+    <path
+        android:fillColor="#D25B31"
+        android:pathData="M12,6.5 A1.5,1.5 0 1,1 12,9.5 A1.5,1.5 0 1,1 12,6.5"/>
+    
+    <path
+        android:fillColor="#D25B31"
+        android:pathData="M11,11 L13,11 L13,17 L11,17 Z"/>
+</vector>

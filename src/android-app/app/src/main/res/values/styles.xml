@@ -1,0 +1,178 @@
+<!--
+   Copyright 2022 Google LLC
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<resources>
+
+  <!--
+      Base application theme, dependent on API level. This theme is replaced
+      by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+  -->
+  <style name="AppBaseTheme" parent="android:Theme.Light">
+    <!--
+        Theme customizations available in newer API levels can go in
+        res/values-vXX/styles.xml, while customizations related to
+        backward-compatibility can go here.
+    -->
+  </style>
+
+  <!-- Application theme. -->
+  <style name="AppTheme" parent="AppBaseTheme">
+    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+  </style>
+
+  <!-- AR Button Style - Estético y moderno para realidad aumentada -->
+  <style name="ArButtonStyle">
+    <item name="android:layout_width">80dp</item>
+    <item name="android:layout_height">80dp</item>
+    <item name="android:background">@drawable/ar_button_background</item>
+    <item name="android:elevation">8dp</item>
+    <item name="android:stateListAnimator">@null</item>
+    <item name="android:scaleType">centerInside</item>
+    <item name="android:padding">16dp</item>
+    <item name="android:layout_margin">16dp</item>
+    <item name="android:foreground">?android:attr/selectableItemBackgroundBorderless</item>
+    <item name="android:clickable">true</item>
+    <item name="android:focusable">true</item>
+  </style>
+
+  <!-- Estilo para botones AR pequeños -->
+  <style name="ArButtonStyleSmall" parent="ArButtonStyle">
+    <item name="android:layout_width">60dp</item>
+    <item name="android:layout_height">60dp</item>
+    <item name="android:padding">12dp</item>
+    <item name="android:layout_margin">12dp</item>
+  </style>
+
+  <!-- Botón flotante AR con estilo arqueológico premium -->
+  <style name="FloatingArButtonStyle">
+    <item name="android:layout_width">72dp</item>
+    <item name="android:layout_height">72dp</item>
+    <item name="android:background">@drawable/floating_ar_button_background</item>
+    <item name="android:elevation">16dp</item>
+    <item name="android:translationZ">8dp</item>
+    <item name="android:stateListAnimator">@null</item>
+    <item name="android:scaleType">centerInside</item>
+    <item name="android:padding">16dp</item>
+    <item name="android:layout_margin">20dp</item>
+    <item name="android:foreground">?android:attr/selectableItemBackgroundBorderless</item>
+    <item name="android:clickable">true</item>
+    <item name="android:focusable">true</item>
+  </style>
+
+  <!-- Estilo mejorado para tarjetas principales -->
+  <style name="EnhancedMainCardStyle">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">75dp</item>
+    <item name="android:layout_marginLeft">16dp</item>
+    <item name="android:layout_marginRight">16dp</item>
+    <item name="android:layout_marginBottom">10dp</item>
+    <item name="android:padding">16dp</item>
+    <item name="android:elevation">8dp</item>
+    <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    <item name="android:clickable">true</item>
+    <item name="android:focusable">true</item>
+  </style>
+
+  <!-- Texto principal de tarjetas optimizado -->
+  <style name="EnhancedCardTextStyle">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">#2d2d2d</item>
+    <item name="android:textSize">18sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:fontFamily">@font/font</item>
+    <item name="android:letterSpacing">0.01</item>
+    <item name="android:maxLines">1</item>
+    <item name="android:ellipsize">end</item>
+  </style>
+
+  <!-- Icono de tarjetas optimizado -->
+  <style name="EnhancedCardIconStyle">
+    <item name="android:layout_width">32dp</item>
+    <item name="android:layout_height">32dp</item>
+    <item name="android:layout_marginEnd">12dp</item>
+    <item name="android:scaleType">centerInside</item>
+  </style>
+
+  <!-- Estilo para tiles cuadrados (contenido centrado) -->
+  <style name="SquareTileCardStyle">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">match_parent</item>
+    <item name="android:padding">16dp</item>
+    <item name="android:gravity">center</item>
+    <item name="android:elevation">8dp</item>
+    <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    <item name="android:clickable">true</item>
+    <item name="android:focusable">true</item>
+  </style>
+
+  <!-- ====================================================================== -->
+  <!-- POI Content Styles - Archaeological Information Display -->
+  <!-- ====================================================================== -->
+
+  <!-- POI Title Style - 18sp bold for main titles (Montículo names) -->
+  <style name="PoiTitleStyle">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textSize">18sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">@android:color/black</item>
+    <item name="android:fontFamily">@font/font</item>
+    <item name="android:lineSpacingMultiplier">1.2</item>
+    <item name="android:paddingBottom">8dp</item>
+  </style>
+
+  <!-- POI Subtitle Style - 16sp bold for section headers (Hallazgos, Función, etc.) -->
+  <style name="PoiSubtitleStyle">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textSize">16sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">@android:color/black</item>
+    <item name="android:fontFamily">@font/font</item>
+    <item name="android:lineSpacingMultiplier">1.2</item>
+    <item name="android:paddingTop">12dp</item>
+    <item name="android:paddingBottom">6dp</item>
+  </style>
+
+  <!-- POI Body Text Style - 14sp for descriptions and findings -->
+  <style name="PoiBodyTextStyle">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textSize">14sp</item>
+    <item name="android:textColor">@android:color/black</item>
+    <item name="android:fontFamily">@font/font</item>
+    <item name="android:lineSpacingMultiplier">1.4</item>
+    <item name="android:paddingBottom">12dp</item>
+  </style>
+
+  <!-- POI Section Container Style - For organizing content sections -->
+  <style name="PoiSectionContainerStyle">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:padding">16dp</item>
+    <item name="android:orientation">vertical</item>
+  </style>
+
+  <!-- POI Card Container Style - For wrapping POI information in cards -->
+  <style name="PoiCardContainerStyle">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:padding">20dp</item>
+    <item name="android:elevation">4dp</item>
+    <item name="android:layout_margin">16dp</item>
+  </style>
+
+</resources>
